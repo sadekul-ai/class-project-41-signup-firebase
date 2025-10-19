@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Bhabi = (props) => {
+    const {brotherMoney} = props
+    return (
+        <div className='border-2 border-green-500 rounded-xl p-10 m-10'>
+            <h1 className='text-center'>Bhabi {brotherMoney} Tk. </h1>
+        </div>
+    );
+};
+
+export default Bhabi;
